@@ -176,7 +176,7 @@ var map = L.map('map', {
 // Add tile layer
 var t = L.tileLayer('../tiles/{z}/{y}/{x}.png', {
   noWrap: true,
-  tileSize: L.point(1021, 865),
+  tileSize: L.point(6144/2, 9216/2),
   minNativeZoom: 0,
   maxNativeZoom: 3,
   minZoom: -1,
