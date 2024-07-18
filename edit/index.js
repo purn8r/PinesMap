@@ -80,7 +80,7 @@ function onEachFeature(feature, layer) {
 
 let datasets = []
 let layerList = {}
-data.push({...buildings, properties:{layername:"Buildings"}})
+// data.push({...buildings, properties:{layername:"Buildings"}})
 data.forEach(json => {
   var dataset = L.geoJSON(json, {
     onEachFeature: onEachFeature,
