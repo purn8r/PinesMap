@@ -65,28 +65,28 @@ Styles.Hover = {
   
 }
 
-Styles.ArborPD =  {
+Styles.SAFS =  {
     stroke: true,
     weight: 3,
     dashArray: '',
     opacity: 0.7,
-    color: '#2a28ad',
+    color: '#134E13',
     fillOpacity: .2,
 }
-Styles.RedwoodPD =  {
+Styles.SAFR =  {
     stroke: true,
     weight: 3,
     dashArray: '',
     opacity: 0.7,
-    color: '#ad2f28',
+    color: '#FE2D00',
     fillOpacity: .2,
 }
-Styles.PromPD =  {
+Styles.PBFD =  {
     stroke: true,
     weight: 3,
     dashArray: '',
     opacity: 0.7,
-    color: '#ada228',
+    color: '#A60D0D',
     fillOpacity: .2,
 }
 
